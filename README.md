@@ -4,6 +4,8 @@ ClearSky is a responsive weather dashboard built with plain HTML, CSS and JavaSc
 
 Built as **Task 3** of the **Elevvo Internship Program**.
 
+**Live demo:** https://bishoy-labib-ezzat.github.io/clear-sky-weather-app/
+
 ## Features
 
 - **City search** with live suggestions as you type (debounced, powered by OpenWeather Geocoding).
@@ -62,7 +64,7 @@ Built as **Task 3** of the **Elevvo Internship Program**.
 
 3. **Run it with a local server**
 
-   The app uses ES modules and root-relative paths (`/css/...`, `/images/...`), so opening `index.html` directly from the file system won't work. Serve the project folder from its root instead, for example:
+   The app uses ES modules, so opening `index.html` directly from the file system won't work. Serve the project folder with a local server instead, for example:
 
    ```bash
    npx serve .
